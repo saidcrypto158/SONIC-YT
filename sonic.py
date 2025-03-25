@@ -11,7 +11,7 @@ web3 = Web3(Web3.HTTPProvider(rpc_url))
 PENDLE_API_URL = "https://api-v2.pendle.finance/core/v1/sdk"  # URL API Pendle
 
 # Настройки софта
-WALLET_FILE = 'wallets.txt'
+WALLET_FILE = 'privatekeys.txt'
 AMOUNT_IN_S = 1  # Количество SONIC для свапа
 SLIPPAGE = 0.01  # Макс. допустимый slippage (1% = 0.01)
 GAS_LIMIT = 1500000  # Лимит газа
